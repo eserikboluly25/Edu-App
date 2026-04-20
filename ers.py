@@ -209,3 +209,4 @@ elif menu == "📅 План":
     if st.button("Очистить"):
         save_data(TASKS_FILE, [])
         st.warning("Список очищен")
+        
